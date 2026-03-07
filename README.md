@@ -9,7 +9,7 @@ The AI can learn strategies through repeated episodes and store its learned poli
 
 ## Features
 
-- Connect 3 board game implementation
+- Connect 3 board game implementation (With expandability defined in constants.py)
 - Reinforcement Learning AI players
 - Multiple gameplay modes
 - Headless AI training for fast learning
@@ -50,8 +50,9 @@ pip install pygame
 ### Running the Game
 
 Run the main script:
-
+```bash
 python -m src.main
+```
 
 This will open the game menu where you can choose a mode.
 ---
@@ -66,7 +67,7 @@ AI Headless Training
 
 The AI plays multiple episodes defined in:
 
-constants.EPISODES
+`constants.EPISODES`
 
 After training finishes, the learned policy is saved and can be loaded for Human vs AI matches.
 
@@ -88,6 +89,8 @@ Back button returns to the menu
 Python
 
 Pygame
+
+Numpy
 
 Reinforcement Learning
 --- 
