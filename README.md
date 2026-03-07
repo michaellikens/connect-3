@@ -44,7 +44,7 @@ This is the **fastest training mode**.
 Install dependencies:
 
 ```bash
-pip install pygame
+pip install pygame numpy pathlib
 ```
 
 ### Running the Game
