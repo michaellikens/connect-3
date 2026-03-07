@@ -3,7 +3,7 @@
 A **machine learning powered Connect 3 game** built with **Python and Pygame**.  
 This project allows humans to play Connect 3 while also enabling **AI agents to train against each other using reinforcement learning**.
 
-The AI can learn strategies through repeated self-play and store its learned policy for later use.
+The AI can learn strategies through repeated episodes and store its learned policy for later use.
 
 ---
 
