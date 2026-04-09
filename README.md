@@ -2,7 +2,7 @@
 
 A **machine learning–powered Connect 3 game** built with **Python** and **Pygame**.  
 This project combines classic gameplay with **reinforcement learning**, allowing AI agents to train, improve, and compete over time.
-<img src="https://i.imgur.com/lWWvQ9L.png" width="33%">
+<img src="https://i.imgur.com/lWWvQ9L.png" width="55%">
 
 
 ## 🚀 Overview
