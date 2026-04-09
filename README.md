@@ -2,6 +2,7 @@
 
 A **machine learning–powered Connect 3 game** built with **Python** and **Pygame**.  
 This project combines classic gameplay with **reinforcement learning**, allowing AI agents to train, improve, and compete over time.
+
 <img src="https://i.imgur.com/lWWvQ9L.png" width="55%">
 
 
@@ -40,8 +41,8 @@ Train AI agents without rendering graphics, enabling thousands of games to run q
 > This is the **fastest and most efficient training mode**.
 
 ## 📸 Screenshots
-![image2](https://i.imgur.com/o8LMzBN.png)
-![image3](https://i.imgur.com/8F3bAcq.png)
+<img src="https://i.imgur.com/o8LMzBN.png" width="55%">
+<img src="https://i.imgur.com/8F3bAcq.png" width="55%">
 
 ## 📦 Requirements
 
