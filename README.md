@@ -39,7 +39,10 @@ Watch two AI agents train against each other with real-time rendering.
 Train AI agents without rendering graphics, enabling thousands of games to run quickly.  
 > This is the **fastest and most efficient training mode**.
 
-
+## 📸 Screenshots
+![image1](https://i.imgur.com/lWWvQ9L.png)
+![image2](https://i.imgur.com/o8LMzBN.png)
+![image3](https://i.imgur.com/8F3bAcq.png)
 
 ## 📦 Requirements
 
