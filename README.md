@@ -1,100 +1,128 @@
-# ML Connect 3
+# 🧠 ML Connect 3
 
-A **machine learning powered Connect 3 game** built with **Python and Pygame**.  
-This project allows humans to play Connect 3 while also enabling **AI agents to train against each other using reinforcement learning**.
+A **machine learning–powered Connect 3 game** built with **Python** and **Pygame**.  
+This project combines classic gameplay with **reinforcement learning**, allowing AI agents to train, improve, and compete over time.
 
-The AI can learn strategies through repeated episodes and store its learned policy for later use.
 
----
 
-## Features
+## 🚀 Overview
 
-- Connect 3 board game implementation (With expandability defined in constants.py)
-- Reinforcement Learning AI players
-- Multiple gameplay modes
-- Headless AI training for fast learning
-- Visual AI training to watch learning in real time
-- Human vs AI gameplay using a trained policy
-- Clean UI built with **Pygame**
+ML Connect 3 is both a playable game and an experimentation platform for AI training.  
+Users can play manually, compete against trained models, or observe AI agents learning strategies through repeated simulations.
 
----
 
-## Game Modes
 
-### Human vs Human
+## ✨ Features
+
+- 🎮 Fully functional **Connect 3 game engine** (configurable via `constants.py`)
+- 🤖 **Reinforcement Learning AI agents**
+- 🔁 Multiple gameplay and training modes
+- ⚡ **Headless training** for high-speed simulations
+- 👀 **Visual training mode** to see AI learning in real time
+- 🧑‍💻 Human vs AI gameplay using saved policies
+- 🖥️ Clean and interactive UI built with **Pygame**
+
+
+
+## 🎯 Game Modes
+
+### 👥 Human vs Human
 Two players take turns placing pieces on the board.
 
-### Human vs AI
-Play against a trained AI model that uses a saved policy.
+### 🤖 Human vs AI
+Play against a trained AI model using a saved policy. (configure policy in `constants.py`)
 
-### AI Training (Visual)
-Two AI agents train against each other while the game is rendered on screen.
+### 👁️ AI Training (Visual)
+Watch two AI agents train against each other with real-time rendering.
 
-### Headless AI Training
-Two AI agents train **without rendering graphics**, allowing thousands of games to run quickly.  
-This is the **fastest training mode**.
+### ⚡ Headless AI Training
+Train AI agents without rendering graphics, enabling thousands of games to run quickly.  
+> This is the **fastest and most efficient training mode**.
 
----
 
-## Requirements
 
-- Python 3.10+
+## 📦 Requirements
+
+- Python **3.10+**
 - Pygame
 
-Install dependencies:
+### Install Dependencies
 
 ```bash
 pip install pygame numpy pathlib
 ```
 
-### Running the Game
-
-Run the main script:
+### ▶️ Running the Game
 ```bash
 python -m src.main
 ```
+This launches the main menu where you can then select a game mode.
 
-This will open the game menu where you can choose a mode.
----
+### 🧠 Training the AI
 
-### Training the AI
+Training begins automatically when selecting:
 
-Training occurs automatically when selecting:
+- AI Training (Visual)
+- Headless AI Training
 
-AI Training Visual
+The number of training episodes is defined in:
 
-AI Headless Training
+**`constants.EPISODES`**
 
-The AI plays multiple episodes defined in:
+After training completes:
 
-`constants.EPISODES`
+- The AI's learned policy is saved
 
-After training finishes, the learned policy is saved and can be loaded for Human vs AI matches.
+- The policy can be reused in Human vs AI mode
+## 🎮 Controls
 
-### Controls
+**Mouse only:**
 
-Mouse only:
+- Click on board cells to place pieces
+- Use buttons to navigate menus
+- Reset button appears after a game ends
+- Back button returns to the main menu
+## 🛠️ Technologies Used
+- Python
+- Pygame
+- NumPy
+- Reinforcement Learning
+## 📁 Project Structure
+```text
+CONNECT3/
+├── assets/
+│ ├── images/
+│ │ └── icon.png
+│
+├── policies/
+│ ├── policy_player1_date-time.pkl
+│ └── policy_player2_date-time.pkl
+│
+├── src/
+│ ├── ai_player.py
+│ ├── board.py
+│ ├── constants.py
+│ ├── game_manager.py
+│ ├── human_player.py
+│ ├── main.py
+│ ├── player_base.py
+│ └── utilities.py
+```
+## 👨‍💻 Authors
+**Michael L.**
 
-Click board cells to place pieces
+**Elijah F.**
 
-Click buttons to navigate menus
+## 📌 Notes
 
-Reset button appears after a game ends
+This project is designed to be **extendable**:
 
-Back button returns to the menu
----
+- Modify board size or rules via `constants.py`
+- Experiment with different RL strategies
+- Improve AI performance through hyperparameter tuning
 
-### Technologies Used
-
-Python
-
-Pygame
-
-Numpy
-
-Reinforcement Learning
---- 
-### Authors
-
-Michael L.
-Elijah F.
+## ⭐ Future Improvements
+- Save/load multiple AI models
+- Add difficulty levels
+- Implement Minimax or hybrid AI strategies
+- Enhance UI/UX and animations
