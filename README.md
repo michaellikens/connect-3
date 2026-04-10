@@ -112,9 +112,9 @@ CONNECT3/
 │ └── utilities.py
 ```
 ## 👨‍💻 Authors
-**Michael L.**
+[**Michael L.**](https://github.com/michaellikens)
 
-**Elijah F.**
+[**Elijah F.**](https://github.com/elijahwfrandsen)
 
 ## 📌 Notes
 
